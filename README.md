@@ -22,7 +22,7 @@ This project is a Flask web application that automates the generation and renami
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/cert_gen1.git
+git clone https://github.com/Arkaprobholaha-1608/cert_gen1.git
 cd cert_gen1
 ```
 
