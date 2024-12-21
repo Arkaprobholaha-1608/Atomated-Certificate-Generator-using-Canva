@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Generator</title>
+</head>
+
+<body>
+    <h1>Automated Certificate Generator</h1>
+
+    <!-- Generate Templates -->
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <h3>Step 1: Upload Excel File and Generate Templates</h3>
+        <label for="file">Upload Excel File:</label>
+        <input type="file" name="file" id="file" required>
+        <br><br>
+        <label for="template_url">Canva Template URL:</label>
+        <input type="text" name="template_url" id="template_url" required>
+        <br><br>
+        <button type="submit">Generate Templates</button>
+    </form>
+
+    <hr>
+
+    <!-- Rename Files -->
+    <form action="/rename" method="POST">
+        <h3>Step 2: Confirm Downloads and Rename Certificates</h3>
+        <label>
+            <input type="checkbox" name="confirm_downloads" required>
+            I confirm that I have downloaded all certificates and placed them in the folder.
+        </label>
+        <br><br>
+        <button type="submit">Rename Certificates</button>
+    </form>
+</body>
+
+</html>
