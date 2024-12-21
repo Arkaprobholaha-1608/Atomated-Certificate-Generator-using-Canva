@@ -5,13 +5,13 @@ This project is a Flask web application that automates the generation and renami
 ## Features
 
 - Upload an Excel file with participant data
-- Generate customized certificates using the Canva API
+- Generate customized certificates using the Canva Connect API
 - Rename certificates based on participant information
 
 ## Prerequisites
 
 - Python 3.x
-- Canva API credentials (Client ID and Client Secret)
+- Canva Connect API credentials
 - Flask
 - Openpyxl
 - Requests
